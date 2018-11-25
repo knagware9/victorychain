@@ -1,0 +1,433 @@
+/**
+ * MEDIA QUERY
+ **/
+/**
+ * COLORS (Naming suggestions under: http://chir.ag/projects/name-that-color/)
+ **/
+/**
+ * GENERAL
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/* line 9, ../../../src/victorinox/sass/general/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 16, ../../../src/victorinox/sass/general/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 26, ../../../src/victorinox/sass/general/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 43, ../../../src/victorinox/sass/general/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 53, ../../../src/victorinox/sass/general/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 60, ../../../src/victorinox/sass/general/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 69, ../../../src/victorinox/sass/general/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/* line 74, ../../../src/victorinox/sass/general/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 83, ../../../src/victorinox/sass/general/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 88, ../../../src/victorinox/sass/general/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 94, ../../../src/victorinox/sass/general/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 100, ../../../src/victorinox/sass/general/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 106, ../../../src/victorinox/sass/general/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 112, ../../../src/victorinox/sass/general/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 117, ../../../src/victorinox/sass/general/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 125, ../../../src/victorinox/sass/general/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 129, ../../../src/victorinox/sass/general/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../src/victorinox/sass/general/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 142, ../../../src/victorinox/sass/general/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 150, ../../../src/victorinox/sass/general/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 155, ../../../src/victorinox/sass/general/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 162, ../../../src/victorinox/sass/general/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 167, ../../../src/victorinox/sass/general/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 185, ../../../src/victorinox/sass/general/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 196, ../../../src/victorinox/sass/general/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 204, ../../../src/victorinox/sass/general/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 214, ../../../src/victorinox/sass/general/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 223, ../../../src/victorinox/sass/general/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 229, ../../../src/victorinox/sass/general/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 237, ../../../src/victorinox/sass/general/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 246, ../../../src/victorinox/sass/general/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 255, ../../../src/victorinox/sass/general/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 263, ../../../src/victorinox/sass/general/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 273, ../../../src/victorinox/sass/general/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 279, ../../../src/victorinox/sass/general/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 287, ../../../src/victorinox/sass/general/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 293, ../../../src/victorinox/sass/general/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 299, ../../../src/victorinox/sass/general/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 307, ../../../src/victorinox/sass/general/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 312, ../../../src/victorinox/sass/general/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/**
+ * BASE
+ */
+/* line 1, ../../../src/victorinox/sass/base/_tags.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 5, ../../../src/victorinox/sass/base/_tags.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+/* line 13, ../../../src/victorinox/sass/base/_tags.scss */
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* line 18, ../../../src/victorinox/sass/base/_tags.scss */
+p {
+  font-size: 20px;
+}
+
+/* line 22, ../../../src/victorinox/sass/base/_tags.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 27, ../../../src/victorinox/sass/base/_tags.scss */
+.row {
+  box-sizing: content-box;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+/**
+ * FRAMEWORK
+ */
+/* line 1, ../../../src/victorinox/sass/framework/_svginject.scss */
+.svginject {
+  display: none;
+}
+
+/* line 5, ../../../src/victorinox/sass/framework/_svginject.scss */
+.svg-wrap {
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+/* line 10, ../../../src/victorinox/sass/framework/_svginject.scss */
+.svg-wrap svg.svginject {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+/**
+ * LAYOUT
+ */
+/**
+ * MODULE
+ */
+/* line 1, ../../../src/victorinox/sass/module/_header.scss */
+.mod_header {
+  border-bottom: 1px solid #D0D0CE;
+  padding: 20px 0;
+}
+
+/* line 6, ../../../src/victorinox/sass/module/_header.scss */
+.header_logo {
+  width: 137px;
+  width: 13.7rem;
+  padding-left: 50px;
+  padding-left: 5rem;
+}
+
+/* line 1, ../../../src/victorinox/sass/module/_content.scss */
+.mod_content {
+  padding: 40px;
+}
+/* line 4, ../../../src/victorinox/sass/module/_content.scss */
+.mod_content > .row {
+  border-bottom: 1px solid #d0d0ce;
+}
+
+/* line 9, ../../../src/victorinox/sass/module/_content.scss */
+.content_element {
+  width: 100%;
+  margin-bottom: 50px;
+}
+/* line 13, ../../../src/victorinox/sass/module/_content.scss */
+.content_element.var_centered {
+  text-align: center;
+}
+
+/* line 1, ../../../src/victorinox/sass/module/_button.scss */
+.mod_button {
+  font-size: 20px;
+  background: #B11E37;
+  color: #FFFFFF;
+  max-width: 240px;
+  padding: 5px 0;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 11, ../../../src/victorinox/sass/module/_button.scss */
+.mod_button:hover {
+  background: #A01D34;
+}
+
+/* line 1, ../../../src/victorinox/sass/module/_table.scss */
+.mod_table {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 auto;
+}
+
+/* line 7, ../../../src/victorinox/sass/module/_table.scss */
+.table_row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/* line 12, ../../../src/victorinox/sass/module/_table.scss */
+.table_column {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* line 1, ../../../src/victorinox/sass/module/_alert.scss */
+.mod_alert {
+  font-size: 20px;
+  background: #F2F2F2;
+  color: #B11E37;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
