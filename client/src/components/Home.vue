@@ -6,11 +6,6 @@
                 <p>{{ homeText }}</p>
                 <div class="mod_button" v-on:click="[showHome = false, showScan = true]">{{ homeButtonText }}</div>
             </div>
-            <div class="content_element">
-                <div class="mod_image">
-                    <img alt="Swiss Army Knife" src="../assets/knife.svg"/>
-                </div>
-            </div>
         </div>
         <div v-if="showScan === true">
             <div class="content_element">
